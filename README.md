@@ -44,7 +44,3 @@ The interactive prompt will ask for:
 2. Your desired filename.
 
 The generated QR code will be previewed in the terminal and saved as a crisp, scannable `.png` file in your directory.
-
-## 🖼️ Example Output
-
-![Generated QR Code](heart.png)
