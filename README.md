@@ -30,6 +30,9 @@ To run this project, you need Python installed on your system along with the fol
    ```bash
    pip install -r requirements.txt
    ```
+## ⚠️ Known Limitations
+
+* **Character Limit (Max 80 chars):** Currently, the engine generates QR codes up to **Version 4** (33x33 matrix) with Error Correction Level L. Due to this architectural scope, the maximum supported length for a link or text is exactly **80 characters**. Exceeding this limit will require adding higher version byte-dictionaries to the code.
 
 ## 💻 Usage
 
@@ -44,3 +47,4 @@ The interactive prompt will ask for:
 2. Your desired filename.
 
 The generated QR code will be previewed in the terminal and saved as a crisp, scannable `.png` file in your directory.
+
