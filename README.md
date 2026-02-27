@@ -22,7 +22,7 @@ To run this project, you need Python installed on your system along with the fol
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/qr-code-engine.git](https://github.com/YOUR_USERNAME/qr-code-engine.git)
+   git clone https://github.com/Infinitoo666/qr-code-generator.git
    cd qr-code-engine
    ```
 
@@ -47,4 +47,5 @@ The interactive prompt will ask for:
 2. Your desired filename.
 
 The generated QR code will be previewed in the terminal and saved as a crisp, scannable `.png` file in your directory.
+
 
